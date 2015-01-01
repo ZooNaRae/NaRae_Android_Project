@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+   
+    <Button 
+        android:id="@+id/ListviewBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:onClick="mOnClick"
+        android:text = "ListView"
+        />
+    <Button 
+        android:id = "@+id/CallBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:onClick="mOnClick"
+        android:text = "전화 연결"
+        />
+    <Button 
+        android:id = "@+id/ActivityBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:onClick="mOnClick"
+        android:text = "같은그림찾기"
+        />
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:src="@+drawable/cat" />
+    
+</LinearLayout>
